@@ -1,0 +1,80 @@
+# Miscellaneous & OS
+*.class
+*.log
+*.swp
+.DS_Store
+.history
+.atom/
+.build/
+.buildlog/
+.svn/
+.swiftpm/
+
+# IDE Configuration
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Secrets and Environment Variables (Strictly Protected)
+.env
+.env.*
+!.env.example
+*.private.env
+*.secret
+
+# Android specific
+local.properties
+**/android/local.properties
+**/android/key.properties
+*.keystore
+*.jks
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter / Dart
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build
+build/
+ephemeral/
+.metadata
+._*
+**/._*
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Python environments & caches (preserves trackable source scripts)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Real Financial Records & Member Data Exports (Confidential)
+# Keep synthetic fixtures and templates in assets/templates/ or test/fixtures/
+**/exports/
+*member_export*.xlsx
+*member_export*.csv
+*payment_export*.xlsx
+*payment_export*.csv
+*financial_report*.xlsx
+*financial_report*.csv
+*statement*.xlsx
+*statement*.csv
+
+# Database Dumps and sensitive backups
+*.dump
+*.sql.dump
+*backup*.sql
